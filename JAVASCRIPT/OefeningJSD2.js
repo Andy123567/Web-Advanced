@@ -1,4 +1,5 @@
 // Oefening 1
+
 let Zin1, Zin2, Zin3;
 
 Zin1= "Dit is de eerste zin"
