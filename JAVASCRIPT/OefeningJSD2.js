@@ -65,5 +65,11 @@ if(leeftijd >= 20){
     alert('Je bent oud genoeg om deze webpagina te bezoeken');
 }
 
+let sporter = "Just do it!";
+let lamzka = "BLijf dan maar lekker liggen";
+
+let vraag2 = window.confirm("sport je graag?")
+
+
 
 
