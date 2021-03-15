@@ -54,3 +54,16 @@ let oudgenoeg = prompt('Bent je ouder dan 18?');
 if (!oudgenoeg === 'ja'){
     alert('sorry, probeer het volgend jaar opnieuw')
 }
+// oefeningen deel 3
+
+//Controle structuren
+
+let geboortejaar = parseInt( prompt('Geef je geboortejaar'));
+let datum = new Date().getFullYear();
+let leeftijd = datum - geboortejaar;
+if(leeftijd >= 20){
+    alert('Je bent oud genoeg om deze webpagina te bezoeken');
+}
+
+
+
