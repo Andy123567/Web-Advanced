@@ -66,9 +66,10 @@ if(leeftijd >= 20){
 }
 
 let sporter = "Just do it!";
-let lamzka = "BLijf dan maar lekker liggen";
+let lamzak = "BLijf dan maar lekker liggen";
 
-let vraag2 = window.confirm("sport je graag?")
+let vraag2 = window.confirm("sport je graag?");
+
 
 
 
