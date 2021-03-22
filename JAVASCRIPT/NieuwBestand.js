@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    Omuitteproberen()
+    Test()
 }
 
 function OEFening1(){
@@ -310,4 +310,14 @@ function Omuitteproberen(){
     }
     document.getElementById('Woonplaats').innerText = `De stad waar ik woon is ${Woonplaats}, dit is een van de mooiste steden uit het land en ik woon hier al meerdere jaren om te verkomen dat de stad zouw vervuilen heeft de stad besloten om alle auto die diezel gebruiken te verbannen van het centrum, dit betekend voor diegene die nog een diezel auto hebben dat zij niet meer in het centrum kunnen en mogen komen wegens dat je anders een boete van over de 100 euro kan verwachten.`
 
+}
+function Test(){
+    let Punten;
+
+    Punten = parseInt(prompt('Geef je laatste cijfer in.'));
+    if (Punten < 5){
+        alert('Wat een laag cijfer man.');
+    }else{
+        alert('Dit cijfer is al beter dan een 0.');
+    }
 }
