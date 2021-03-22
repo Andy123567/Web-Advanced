@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    Oefening9()
+    Test()
 }
 
 function OEFening1(){
@@ -315,9 +315,11 @@ function Test(){
     let Punten;
 
     Punten = parseInt(prompt('Geef je laatste cijfer in.'));
-    if (Punten < 5){
-        alert('Wat een laag cijfer man.');
+    if (Punten >= 0 && Punten <= 5) {
+        alert("Dat is een laag cijfer!");
+    }else if(Punten > 5 && Punten <= 10){
+        alert("Wat een mooie score heb je hier gehaald!");
     }else{
-        alert('Dit cijfer is al beter dan een 0.');
+        alert("Geef een correct getal in tussen de 0 en 10.");
     }
 }
