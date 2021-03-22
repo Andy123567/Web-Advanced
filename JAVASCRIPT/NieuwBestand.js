@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    Test()
+    Oefening12()
 }
 
 function OEFening1(){
@@ -253,18 +253,66 @@ function Oefening9(){
 }
 
 function Oefening10(){
-
+    let tellinglines = 7;
+    for (let i = 1; i <= 11; i++){
+        let row = '';
+        for (let j = 1; j <= i; j++){
+            row += '#';
+        }
+        console.log(row);
 }
 
 function Oefening11(){
+        let lines = parseInt(prompt("Geef een getal van 1 tot 10 in."));
+        if (lines >= 0 && lines <= 10) {
+            for (let i = 1; i <= lines; i++) {
+                let row = '';
+                for (let j = 1; j <= i; j++) {
+                    row += '*';
+                }
+                console.log(row);
+                //console.log('*'.repeat(i));
+            }
+        }else{
+            console.log('Dat is niet mogelijk.');
+        }
+    }
 
 }
 
 function Oefening12(){
-
+    let getal = parseInt(prompt("Geef een getal tussen 0 en 10 in."));
+    if (getal < 1 || getal > 10) {
+        console.log('Niet mogelijk')
+    }else{
+        for (let i = 1; i <= getal; i++) {
+            let driehoek = '';
+            for (let j = getal-i; j > 0; j--) {
+                driehoek += ' ';
+            }
+            for (let k = 0; k < i; k++) {
+                driehoek += '#';
+            }
+            console.log(driehoek);
+        }
+    }
 }
 
 function Oefening13(){
+    let lines = 7;
+    for (let i = 1; i <= lines ; i++) {
+        let row = '';
+        for (let j = 1; j <= lines - i; j++) {
+            row+= ' ';
+        }
+        for (let k = 0; k <= (2*(i-1)); k++) {
+            row += '*';
+        }
+        for (let l = i+1; l <= lines ; l++) {
+            row+= ' ';
+        }
+        console.log(row);
+    }
 
 }
 
