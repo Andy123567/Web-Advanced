@@ -1,0 +1,29 @@
+/* Naam student:    */
+
+/* Algemene CSS-CODE - Hier moet je niets aan wijzigen */
+* {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* CSS-CODE voor formulier */
+label {
+    width: 200px;
+    font-weight: 700;
+}
+.label {
+    width: 90px;
+    font-weight: 400;
+}
+
+.Invoervelden {
+    width: 400px;
+    border: solid #88001B 1px;
+
+}
+
+.AfspraakVastleggen {
+    width: 400px;
+    border: #88001B solid 1px;
+    background-color: #000000;
+    color: #ffffff;
+}

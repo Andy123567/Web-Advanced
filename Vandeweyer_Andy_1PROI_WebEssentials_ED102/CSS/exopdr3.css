@@ -1,0 +1,12 @@
+/* Naam student:    */
+
+/* Algemene CSS-CODE - Hier moet je niets aan wijzigen */
+* {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* CSS-CODE voor tabel */
+label {
+    width: 750px;
+    border: solid black 1px;
+}

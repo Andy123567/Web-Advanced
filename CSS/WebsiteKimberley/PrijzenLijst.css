@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+    margin: 0;
+    background: #222;
+    font-family: 'Ink Free', sans-serif;
+    font-weight: 800;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #374559;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #FFD700;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.Prijzenlijst{
+    color: white;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    font-family: 'Ink Free', sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-color: #374559;
+    border-radius: 25px;
+    border: black solid;
+}
+
+p.Hoofd {
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 0;
+}
+
+.Beschrijving1 {
+    color: white;
+    background-color: #374559;
+    margin: 5px 60% 10% 20%;
+    border-radius: 5px;
+    padding-left: 5px;
+
+}
+
+.Beschrijving2 {
+    color: white;
+    background-color: #374559;
+    margin: -405px 20% 10% 60%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.Beschrijving3 {
+    color: white;
+    background-color: #374559;
+    margin: 5px 60% 10% 20%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.Beschrijving4 {
+    color: white;
+    background-color: #374559;
+    margin: -415px 20% 10% 60%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.Extras {
+    color: white;
+    background-color: #374559;
+    margin: -20px 40% 10% 40%;
+    border-radius: 5px;
+    padding: 10px;
+}

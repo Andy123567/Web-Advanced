@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    Oefening12()
+
 }
 
 function OEFening1(){
@@ -371,3 +371,36 @@ function Test(){
         alert("Geef een correct getal in tussen de 0 en 10.");
     }
 }
+
+document.getElementById('red').style.color = 'darkred';
+document.getElementById('weg').remove();
+
+let hooding = document.createElement('h1');
+hooding.innerText = 'Welkom Pandix';
+document.getElementById('header').appendChild(hooding);
+
+let aside = document.createElement('aside');
+aside.innerText = 'Elfde-liniestraat 69';
+document.getElementById('main').appendChild(aside);
+
+// Oefening 4
+let array =[
+    {
+        title: "The theory of everything",
+        auteur: "Stephen Hawking",
+        gelezen: "ja"
+    },
+    {
+        title: "12 rules for life",
+        auteur: "Jordan peterson",
+        gelezen: "Nee"
+    }
+];
+
+let ul = document.createElement('ul');
+array.forEach(book => {
+   let li = document.createElement('li');
+   li.innerText = book.toString()
+    ul.appendChild(li);
+});
+document.body.appendChild(ul);

@@ -1,0 +1,116 @@
+/* Naam student: Andy Vandeweyer   */
+
+/* Algemene CSS-CODE */
+body{
+    margin: 0;
+    font-family: "Trebuchet MS", sans-serif;
+    line-height: 1.5;
+    background-color: #000000;
+
+}
+/* CSS-CODE voor Navigatiebalk */
+.logo{
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: auto;
+    width: auto;
+    max-width: 110px;
+
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    height: 110px;
+    background-color: #ffffff;
+}
+
+
+nav{
+    float: right;
+
+}
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+    margin-right: 60px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+nav li:active{
+    text-decoration: underline;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* CSS-CODE voor Header */
+.header {
+    width: 1200px;
+    padding: 25px;
+    position: center;
+    margin-left: 300px;
+}
+
+/* CSS-code voor Main */
+main {
+    width: 1200px;
+    color: #ffffff;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: left;
+    margin-left: 320px;
+
+}
+
+.tittle h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* CSS-code voor Footer */
+footer {
+    width: 1200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.aside-links{
+    background-color: #ffffff;
+    width: 500px;
+    padding: 50px;
+    flex: content-box;
+
+}
+
+.aside-rechts{
+    flex: content-box;
+    background-color: #88001B;
+    width: 500px;
+    padding: 50px;
+    color: #ffffff;
+}
+/* CSS-CODE Voor Responsiviteit */
