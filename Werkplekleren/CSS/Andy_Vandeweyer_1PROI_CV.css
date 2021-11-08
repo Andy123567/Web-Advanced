@@ -83,17 +83,32 @@ main{
     position: fixed;
     width: 100%;
     background-color: #ccc;
+    background-image: url("../../Werkplekleren/Assets/6-Reasons-why-you-should-learn-Programming-1280x720.png");
 }
 
 .container2{
     margin-left: 20%;
     margin-right: 20%;
+    padding-top: 20%;
     background-color: white;
+    position: relative;
+    z-index: 2;
 
 }
 .body{
-    margin-top: -20px;
     margin-bottom: 100%;
+
+}
+img{
+    border: black solid 2px;
+    border-radius: 200px;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    margin-left: 370px;
+    margin-top: -350px;
+
+    z-index: 1;
 
 }
 
