@@ -6,7 +6,6 @@ body{
     background-size: cover;
     color: black;
     background-attachment: fixed;
-    overflow: hidden;
     margin: 0;
 }
 
@@ -28,6 +27,7 @@ nav li{
 
 .Container{
     background-color: black;
+    border-bottom: solid 2px red;
     width: 100%;
     margin: 0;
     height: 60px;
@@ -60,7 +60,7 @@ ul li.eersteactief a {
     color: #000;
 }
 
-.ContainerDown{
+.FooterDown{
     background-color: black;
     position: absolute;
     bottom: 0;
@@ -84,35 +84,63 @@ main{
     width: 100%;
     background-color: #ccc;
     background-image: url("../../Werkplekleren/Assets/6-Reasons-why-you-should-learn-Programming-1280x720.png");
-
+    background-size: cover;
 }
 
 .container2{
     margin-left: 20%;
     margin-right: 20%;
-    padding-top: 20%;
-    background-color: white;
+    padding-top: 250px;
+    color: white;
     position: relative;
     z-index: 2;
     filter: none;
 
 }
 .body{
-    margin-bottom: 100%;
+    font-size: 30px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
 
 }
 img{
-    border-radius: 200px;
-    height: 370px;
-    width: 350px;
-    position: relative;
-    margin-left: 370px;
-    margin-top: -370px;
+    height: 40%;
+    width: 20%;
+    margin-top: -30px;
+    margin-left: 50px;
+    position: absolute;
     padding: 0;
     z-index: 1;
+    border: solid 1px red;
 
 }
+
 img:hover{
     box-shadow: 0 0 20px 10px #999;
+    border: none;
 }
+
+.Button{
+    margin-right: 20px;
+    padding: 17px 17px;
+    float: right;
+    display: inline-block;
+    color: #ffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+
+.Button:hover{
+    color: #111;
+    background: #fc1c03;
+    box-shadow: 0 0 50px #fc1c03;
+}
+
+
+
+
 
