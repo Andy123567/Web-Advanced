@@ -7,6 +7,7 @@ body{
     color: black;
     background-attachment: fixed;
     margin: 0;
+    overflow-y: scroll;
 }
 
 nav {
@@ -26,48 +27,40 @@ nav li{
 }
 
 .Container{
+    height: 60px;
     background-color: black;
     border-bottom: solid 2px red;
     width: 100%;
     margin: 0;
-    height: 60px;
 }
 
-ul{
+#buttonsNav{
     float: right;
     text-decoration: none;
     list-style: none;
 
 
 }
-ul li {
+#buttonsNav li {
     display: inline-block;
 }
 
-ul li a{
+#buttonsNav li a{
     text-decoration: none;
     color: #fff;
     padding: 5px 30px;
     border: 1px solid transparent;
     transition: 0.6s ease;
 }
-ul li a:hover{
+#buttonsNav li a:hover{
     background-color: #fff;
     color: #000;
 }
-ul li.eersteactief a {
+#buttonsNav li.eersteactief a {
     background-color: #fff;
     color: #000;
 }
 
-.FooterDown{
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin: 0;
-    height: 60px;
-}
 h1{
     text-align: center;
     font-family: monospace, "serif";
@@ -83,15 +76,15 @@ main{
     position: fixed;
     width: 100%;
     background-color: #ccc;
-    background-image: url("../../Werkplekleren/Assets/6-Reasons-why-you-should-learn-Programming-1280x720.png");
+    background-image: url("../../Werkplekleren/Assets/BackgroundCode.jpeg");
     background-size: cover;
 }
 
 .container1{
     margin-left: 20%;
     margin-right: 20%;
-    padding-top: 250px;
-    color: white;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     position: relative;
     z-index: 2;
     filter: none;
@@ -103,12 +96,25 @@ main{
     -webkit-text-stroke-width: 1px;
 
 }
+
+footer{
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    height: 60px;
+    bottom: 0;
+}
+
+
 img{
-    height: 40%;
-    width: 20%;
+    height: 550px;
+    width: 450px;
     margin-top: -30px;
     margin-left: 20px;
-    position: absolute;
+    position: static;
     padding: 0;
     z-index: 1;
     border: solid 1px red;
@@ -131,7 +137,6 @@ img:hover{
     text-decoration: none;
     font-size: 20px;
 
-
 }
 
 .Button:hover{
@@ -140,8 +145,21 @@ img:hover{
     box-shadow: 0 0 50px #fc1c03;
 }
 
+.introductie{
+
+}
 
 
 
+@media (max-width: 24000px) {
+    .container1{
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
 
-
+@media screen and (max-width: 480px) {
+    img {
+        width: 400px;
+    }
+}
